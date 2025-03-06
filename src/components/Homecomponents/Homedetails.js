@@ -11,6 +11,7 @@ const Homedetails = () => {
             const now = new Date();
             const difference = targetDate - now;
 
+            
             if (difference <= 0) {
                 clearInterval(timer);
                 setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
