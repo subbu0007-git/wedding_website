@@ -62,15 +62,15 @@ const Appbar = () => {
                         }}
                         href="#"
                     >
-                        Sai Prasana <FaHeartbeat color="red" /> Divya
+                        Sai Prasanna <FaHeartbeat color="red" /> Divya
                     </a>
                 </div>
-                <ul className="nav nav-pills">
+                <ul className="nav nav-pills ">
                     {["HOME", "INFO", "STORY", "GALLERY", "MAP"].map(
                         (item, index) => (
                             <li key={index} className="nav-item">
                                 <a
-                                    className="nav-link"
+                                    className="nav-link nav-link.active"
                                     style={{
                                         color: "#fff",
                                         fontSize: "1rem",
@@ -106,7 +106,7 @@ const Appbar = () => {
                     backgroundColor: "#FF00FF",
                 }}
             >
-                 <div className="d-flex justify-content-around py-2">
+                <div className="d-flex justify-content-around py-2">
                     {["Home", "Info", "Story", "Gallery", "Map"].map((item, index) => (
                         <a
                             key={index}
@@ -203,14 +203,20 @@ const Appbar = () => {
                 </div>
                 <div id="scrollspyHeading4" style={{ backgroundColor: "transparent" }}>
                     <Gallerylayout />
-                    
+
                 </div>
                 <div id="scrollspyHeading5" className="bg-body-tertiary">
                     <Finalmsglayout />
                 </div>
             </div>
 
-
+            <style>
+                {`
+        .nav-link.active {
+            background-color: transparent !important;
+        }
+    `}
+            </style>
         </>
     );
 };

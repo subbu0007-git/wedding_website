@@ -24,7 +24,7 @@ const Gallerylayout = () => {
                         <Componentfadeanimation initial={{ opacity: 0, scale: 0, transform: "translateY(100px)" }} animate={{ opacity: 1, scale: 1, transform: "translateX(0)" }} other={{ duration: 1 }}>
 
                             <img
-                                src="https://sriram8358.github.io/wedding_invitation/img/Thumbnail/dharu_prasad.jpg" // Replace with your image URL
+                                src="Images/DSC02278.JPG" // Replace with your image URL
                                 alt="Engagement"
                                 className="img-fluid rounded"
                             />
@@ -34,7 +34,7 @@ const Gallerylayout = () => {
                         <Componentfadeanimation initial={{ opacity: 0, scale: 0, transform: "translateY(100px)" }} animate={{ opacity: 1, scale: 1, transform: "translateX(0)" }} other={{ duration: 1 }}>
 
                             <img
-                                src="https://sriram8358.github.io/wedding_invitation/img/Thumbnail/dharu_prasad2.jpg" // Replace with your image URL
+                                src="Images/DSC02244.JPG" // Replace with your image URL
                                 alt="Haldi"
                                 className="img-fluid rounded"
                             />
@@ -44,7 +44,7 @@ const Gallerylayout = () => {
                         <Componentfadeanimation initial={{ opacity: 0, scale: 0, transform: "translateY(100px)" }} animate={{ opacity: 1, scale: 1, transform: "translateX(0)" }} other={{ duration: 1 }}>
 
                             <img
-                                src="https://sriram8358.github.io/wedding_invitation/img/Thumbnail/dharu_prasad3.jpg" // Replace with your image URL
+                                src="Images/DSC02212.JPG" // Replace with your image URL
                                 alt="Wedding"
                                 className="img-fluid rounded"
                             />
@@ -54,7 +54,7 @@ const Gallerylayout = () => {
                         <Componentfadeanimation initial={{ opacity: 0, scale: 0, transform: "translateY(100px)" }} animate={{ opacity: 1, scale: 1, transform: "translateX(0)" }} other={{ duration: 1 }}>
 
                             <img
-                                src="https://sriram8358.github.io/wedding_invitation/img/Thumbnail/dharu_prasad4.jpg" // Replace with your image URL
+                                src="Images/DSC02306.JPG" // Replace with your image URL
                                 alt="Reception"
                                 className="img-fluid rounded"
                             />

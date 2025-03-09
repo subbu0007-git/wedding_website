@@ -22,9 +22,9 @@ const Homeindividualdetails = () => {
                             borderRadius: "10px", // Optional: Adding subtle rounding for better aesthetics
                         }}>
                             <img
-                                src="https://img.freepik.com/free-photo/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation_1258-59335.jpg"
-                                alt="Nancy Elizabeth"
-                                className="rounded-circle mx-auto d-block"
+                                src="Images/pp2.jpg"
+                                alt="Deva Divya"
+                                className="rounded-circle mx-auto mt-4 d-block"
                                 style={{ width: "200px", height: "200px", objectFit: "cover" }}
                             />
                             <div className="card-body">
@@ -34,9 +34,9 @@ const Homeindividualdetails = () => {
                                     fontSize: "2rem",
                                     textAlign: "center", fontWeight: "bold"
 
-                                }}>Divya</h5>
+                                }}>Deva Divya</h5>
                                 <p className="card-text">
-                                    Hi! I am Nancy Elizabeth. I am a professional graphic designer introducing myself.
+                                    Peddipalem, Andhra pradesh.
                                 </p>
                                 <div>
                                     <a href="#facebook" className="text-decoration-none me-3">
@@ -85,9 +85,9 @@ const Homeindividualdetails = () => {
                             borderRadius: "10px", // Optional: Adding subtle rounding for better aesthetics
                         }}>
                             <img
-                                src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg"
-                                alt="Harry William"
-                                className="rounded-circle mx-auto d-block"
+                                src="Images/pp1.jpg"
+                                alt="Sai Prasanna"
+                                className="rounded-circle mx-auto mt-4 d-block"
                                 style={{ width: "200px", height: "200px", objectFit: "cover" }}
                             />
                             <div className="card-body">
@@ -97,9 +97,9 @@ const Homeindividualdetails = () => {
                                     fontSize: "2rem",
                                     textAlign: "center", fontWeight: "bold"
 
-                                }}>Sai Prasana</h5>
+                                }}>Eyyapu Sai Prasanna</h5>
                                 <p className="card-text">
-                                    Hi! I am Harry William. I am a professional graphic designer introducing myself.
+                                    Kakinada, Andhra Pradesh.
                                 </p>
                                 <div>
                                     <a href="#facebook" className="text-decoration-none me-3">

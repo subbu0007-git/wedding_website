@@ -54,8 +54,8 @@ const Homedetails = () => {
                     </h3>
 
                     <p className="fs-6 fs-md-5 text-muted" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                        The wedding will be held on <strong>Feb 07, 2025</strong> in{" "}
-                        <strong>Kakinada, Andhra Pradesh</strong>.
+                        The wedding will be held on <strong>March 14, 2025</strong> in{" "}
+                        <strong>Peddipalem, Andhra Pradesh</strong>.
                     </p>
                     <p className="fs-6 text-secondary" style={{ fontFamily: "'Dancing Script', cursive" }}>
                         Therefore, with all due respect, we intend to invite you to attend our wedding.

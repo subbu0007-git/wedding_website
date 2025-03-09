@@ -8,7 +8,7 @@ const Homelayout = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         {/* Background Image */}
-                        <div className="carousel-caption d-none d-md-block position-absolute start-50 translate-middle-x mt-md-0 mt-lg-5 text-top" style={{top:"5%"}}>
+                        <div className="carousel-caption d-none d-lg-block position-absolute start-50 translate-middle-x mt-md-0 mt-lg-5 text-top" style={{top:"5%"}}>
                             <h3
                                 className="fs-1 fs-md-1"
                                 style={{
@@ -24,7 +24,7 @@ const Homelayout = () => {
                             </h3>
                         </div>
                         <img
-                            src="https://img.freepik.com/premium-photo/bride-groom-hand-together-indian-wedding_14349-3.jpg?semt=ais_hybrid"
+                            src="Images/DSC02381.JPG"
                             className="d-block w-100 h-50"
                             alt="..."
                             style={{
@@ -76,9 +76,9 @@ const Homelayout = () => {
 
             <style>
                 {` 
-                        @media (max-width: 800px) {
+                        @media (max-width: 600px) {
                         .carousel-item img {
-                            height: 160vh !important; /* Increase height for extra small screens */
+                            height: 100vh !important; /* Increase height for extra small screens */
                         }
                              .text-top{
                             top: 8% !important; /* Increase height for extra small screens */

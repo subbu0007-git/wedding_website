@@ -29,13 +29,21 @@ const Infolayout = () => {
                     className="display-4"
                     style={{ fontFamily: "Sacramento, cursive", fontWeight: "bold" }}
                 >
-                    Welcome to our big day
+                    Welcome to our big day's
                 </h1>
-                <p className="lead">
-                    It is a long established fact that a reader will be distracted by the
-                    readable content of a page when looking at its layout. The point of
-                    using Lorem Ipsum is that it has a more-or-less normal distribution of
-                    letters.
+                <p className="lead" style={{ fontFamily: "'Dancing Script', cursive", }}>
+                    💍✨ Welcome to Our Wedding Celebration ✨💍
+                    <p className="lead">The day we’ve been dreaming of is finally here, and we are so excited to have you with us as we celebrate the beginning of our forever! ❤️</p>
+
+                    <p className="lead">💒 Occasion: Wedding Ceremony & Reception</p>
+
+                    <p className="lead">🌸 Marriage Ceremony:
+                    Join us as we take our sacred vows and promise a lifetime of love and togetherness.</p>
+                    <p className="lead">🌟 Reception Party:
+                    Celebrate with us as we begin this beautiful journey with joy, music, and heartfelt blessings. Your presence means the world to us!</p>
+                    
+
+                    Thank you for being a part of our special day and showering us with your love and blessings. Let’s make unforgettable memories together! 💕 
                 </p>
                 <div>
                     <Infocards />
