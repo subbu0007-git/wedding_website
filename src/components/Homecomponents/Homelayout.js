@@ -24,7 +24,7 @@ const Homelayout = () => {
                             </h3>
                         </div>
                         <img
-                            src="Images/DSC02381-min.JPG"
+                            src="Images/okoknob.JPG"
                             className="d-block w-100 h-50"
                             alt="..."
                             style={{
