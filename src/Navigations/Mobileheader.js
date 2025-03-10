@@ -35,7 +35,7 @@ const Mobileheader = () => {
                 }}
                 href="#"
             >
-                Sai Prasana <FaHeartbeat color="red" /> Divya
+                Sai Prasanna <FaHeartbeat color="red" /> Divya
             </a>
             <h1 style={{
                     color: "#fff",

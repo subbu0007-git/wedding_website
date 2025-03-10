@@ -6,10 +6,11 @@ import Infolayout from "../components/Infocomponents/Infolayout";
 import Ourstorylayout from "../components/Ourstorycomponents/Ourstorylayout";
 import Gallerylayout from "../components/Gallerycomponents/Gallerylayout";
 import Finalmsglayout from "../components/Finalmessagecomponent/Finalmsglayout";
-
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
 const Appbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [showModal, setShowModal] = useState(false);
+
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 50) {
@@ -34,12 +35,14 @@ const Appbar = () => {
     }, []);
     const openGoogleMaps = (type) => {
         if (type === "reception") {
-            window.open("https://www.google.com/maps?q=reception+location", "_blank");
+            window.open("https://www.google.com/maps/place/Kondababu+Function+Hall/@16.931334,82.2322533,793m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a3827eac1ec4365:0xe97822a219f7267c!8m2!3d16.9313289!4d82.2348282!16s%2Fg%2F11cs46l7dq?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D", "_blank");
         } else if (type === "marriage") {
-            window.open("https://www.google.com/maps?q=marriage+location", "_blank");
+            window.open("https://www.google.com/maps/place/17%C2%B018'45.9%22N+82%C2%B012'58.4%22E/@17.3127467,82.2136334,792m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d17.3127467!4d82.2162083?hl=en&entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D", "_blank");
         }
         setShowModal(false);
     };
+
+   
     return (
         <>
             {/* Desktop Navbar */}
@@ -143,7 +146,7 @@ const Appbar = () => {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h5 className="modal-title">Select Location</h5>
+                                <h5 className="modal-title" style={{ fontFamily: "'Dancing Script', cursive", color: "rgb(255, 0, 255)", }}>Google Map Loaction</h5>
                                 <button
                                     type="button"
                                     className="btn-close"
@@ -151,19 +154,19 @@ const Appbar = () => {
                                 ></button>
                             </div>
                             <div className="modal-body">
-                                <p>Please select the location you want to navigate to:</p>
+                                <p className="text-muted" style={{ fontFamily: "'Dancing Script', cursive", }}>Please click on the button for event locations</p>
                                 <div className="d-flex justify-content-between">
                                     <button
                                         className="btn btn-primary"
-                                        onClick={() => openGoogleMaps("reception")}
+                                        onClick={() => openGoogleMaps("reception")} style={{backgroundColor:"rgb(255, 0, 255)",color:"white",border:"1px solid red",}}
                                     >
-                                        Reception
+                                      <FmdGoodIcon style={{color:'red'}} /> Reception
                                     </button>
                                     <button
-                                        className="btn btn-secondary"
+                                        className="btn" style={{backgroundColor:"rgb(255, 0, 255)",color:"white",border:"1px solid red"}}
                                         onClick={() => openGoogleMaps("marriage")}
                                     >
-                                        Marriage
+                                       <FmdGoodIcon style={{color:'red'}} /> Marriage
                                     </button>
                                 </div>
                             </div>

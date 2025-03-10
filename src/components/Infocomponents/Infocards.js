@@ -93,6 +93,7 @@ const Infocards = () => {
                                 sx={{
                                     backgroundColor: "#dda0dd",
                                     color: "red",
+                                    fontFamily: "'Dancing Script', cursive",
                                     "&:hover": {
                                         color: "#fff",
                                     },
@@ -163,10 +164,12 @@ const Infocards = () => {
                                 sx={{
                                     backgroundColor: "#dda0dd",
                                     color: "red",
+                                    fontFamily: "'Dancing Script', cursive",
                                     "&:hover": {
                                         color: "#fff",
                                     },
                                 }}
+                               
                                 className="fs-5"
                                 onClick={() => window.open('https://www.google.com/maps/place/Kondababu+Function+Hall/@16.931334,82.2322533,793m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a3827eac1ec4365:0xe97822a219f7267c!8m2!3d16.9313289!4d82.2348282!16s%2Fg%2F11cs46l7dq?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D', '_blank')}
                             >
